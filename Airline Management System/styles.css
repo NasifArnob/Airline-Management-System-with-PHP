@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+body{
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.wrapper{
+  
+  background: rgba(121, 224, 238,0.4);
+  margin: 15% auto auto auto;
+  width: 50%;
+  border: 3px solid;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+  }
+
+.wrapper2{
+    background: rgba(121, 224, 238,0.4);
+    margin: 15% auto auto auto;
+    width: 50%;
+    border: 3px solid;
+    padding: 25px;
+    text-align: left;
+    font-weight: bold;
+    font-size: larger;    
+}
+.prev-btn{
+    margin-top: 20px;
+    display: flex;
+}
+.btn{
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+    
+}
+.btn1{
+    background-color: green;
+    color: white;
+}
+.btn2{
+    background-color: red;
+    color: white;
+}
